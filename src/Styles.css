@@ -1,0 +1,37 @@
+.full-height {
+  height: 100vh;
+  display: flex;
+}
+
+.full-width {
+  width: 100vw;
+}
+
+.title {
+  color: #0072aa;
+  font-weight: 600;
+  font-size: 1.8em;
+  text-shadow: 0.5px 1px 2px #f4f4f4;
+}
+
+.header-text {
+  color: #0072aa;
+  font-weight: 700;
+  font-size: 2.5em;
+  text-shadow: 0.5px 1px 2px #f4f4f4;
+}
+
+.link-box {
+  box-shadow: 2px 5px 4px #888888;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.link-box:hover {
+  background-color: #0072aa;
+}
+
+.link-box:hover h4 {
+  color: white;
+  text-shadow: 0.25px 0.5px 1px #f4f4f4;
+}
